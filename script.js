@@ -22,5 +22,5 @@ window.addEventListener('DOMContentLoaded', () => {
       sticker.style.transform = `translate(${newPosition.x}px, ${newPosition.y}px)`;
   }
 
-  sticker.addEventListener('mouseenter', updateStickerPosition);
+  sticker.addEventListene('mouseenter', updateStickerPosition);
 });
