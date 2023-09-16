@@ -28,6 +28,7 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+  text-decoration: none;
 }
 
 /* DESKTOP NAV */
