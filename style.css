@@ -30,12 +30,14 @@ a,
   transition: all 300ms ease;
   text-decoration: none;
 }
-
+.btn btn-color-2 {
+  color: white;
+  }
 /* DESKTOP NAV */
 .sticker {
   position: absolute;
   width: 150px; /* Adjust the size of your sticker */
-  height: 100px;
+  height: 150px;
   background-color: transparent;
   cursor: pointer;
   transition: transform 0.3s ease; /* Add a smooth transition effect */
